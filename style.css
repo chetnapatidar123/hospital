@@ -205,7 +205,7 @@ html,body{
 }
 .bottom .box1 img{
     width: 70vw;
-    height: 16vh;
+    height: 14vh;
     /* background-color: blue; */
     
     
@@ -213,30 +213,30 @@ html,body{
 .bottom .box1 .layer{
     position: absolute;
     width: 70vw;
-    height: 16vh;
+    height: 14vh;
     background-color: rgba(7, 33, 120, 0.585);
 }
 .bottom .box2 img{
     width: 70vw;
-    height: 16vh;
+    height: 14vh;
     /* background-color: blue; */
 
 }
 .bottom .box2 .layer2{
     position: absolute;
     width: 70vw;
-    height: 16vh;
+    height: 14vh;
     background-color: rgba(87, 9, 171, 0.5);
 } 
 .bottom .box3 img{
     width: 70vw;
-    height: 16vh;
+    height: 14vh;
     /* background-color: blue; */
 }
 .bottom .box3 .layer3{
     position: absolute;
     width: 70vw;
-    height: 16vh;
+    height: 14vh;
     background-color: rgb(236, 74, 5, 0.5);
 }
 
