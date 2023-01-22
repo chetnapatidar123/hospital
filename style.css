@@ -1,0 +1,247 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+          width: 100%;
+          height: 100%;
+          overflow-x: hidden;
+}
+.page1{
+          width: 100%;
+          height: 100%;
+          background-color: #c9829b;
+          /* background-color: rgb(14, 143, 147); */
+}
+.nav{
+          width: 100%;
+          height: 13%;
+          background-color: white;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          cursor: pointer;
+}
+.nav-left{
+          margin-left: 3vmax;
+          align-items: center;
+          line-height: 2.1vmax;
+          
+}
+.nav-left :last-child{
+          color: rgb(3, 120, 91);
+}
+.nav .mob{
+          display: none;
+}
+.nav-right{
+          width: 60vmax;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          font-size: 1vmax;
+}
+.nav-right :first-child{
+          background-color: rgb(3, 120, 91);
+          padding: 2.3vmax 1vmax;
+
+}
+.mat{
+          width: 100%;
+          height: 23vmax;
+          /* background-color: yellow; */
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+}
+.matter{
+          width: 40vmax;
+          height: 16vmax;
+          background-color: rgb(102, 134, 136);
+          margin-top: 3vmax;
+          margin-left: 3vmax;
+          
+}
+.matter h2{
+          padding-top: 3vmax;
+          font-weight: 100;
+}
+.matter h1{
+          font-size: 4vmax;
+          line-height: 3.5vmax;
+          color: white;
+}
+.matter1 img{
+          width: 38vmax;
+          height: 25.7vmax;
+          /* background-color: rgb(9, 130, 135); */
+          margin-top: 3vmax;
+          margin-right: 20vmax;
+}
+.bottom{
+          width: 100%;
+          height: 16.3vmax;
+          /* background-color: chartreuse; */
+          display: flex;
+          justify-content: space-evenly;
+}
+.bottom .box1 img{
+          width: 32vmax;
+          height: 16vmax;
+          background-color: blue;
+          
+          
+}
+.bottom .box1 .layer{
+          position: absolute;
+          width: 32vmax;
+          height: 16vmax;
+          background-color: rgba(7, 33, 120, 0.585);
+}
+.bottom .box2 img{
+          width: 32vmax;
+          height: 16vmax;
+          background-color: blue;
+
+}
+.bottom .box2 .layer2{
+          position: absolute;
+          width: 32vmax;
+          height: 16vmax;
+          background-color: rgba(87, 9, 171, 0.5);
+} 
+.bottom .box3 img{
+          width: 32vmax;
+          height: 16vmax;
+          background-color: blue;
+}
+.bottom .box3 .layer3{
+          position: absolute;
+          width: 32vmax;
+          height: 16vmax;
+          background-color: rgb(236, 74, 5, 0.5);
+}
+
+
+
+
+
+@media (max-width:600px) {
+    .nav{
+    width: 100%;
+    height: 10vh;
+}
+.nav-left{
+    width: 30vw;
+    font-size: 1.1vmax;
+}
+.nav .mob{
+    font-size: 3vmax;
+    margin-left: 0vmax;
+    display: initial;
+}
+.nav-right{
+    width: 20vw;
+    font-size: 1.2vmax;
+}
+.nav-right :first-child{
+    padding: 2vmax 1vmax;
+    display: initial;
+
+} 
+.nav-right h3{
+    display: none;
+}
+.mat{
+    width: 100%;
+    height: 30vh;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.matter{
+    width: 50vw;
+    height: 16vh;
+    background-color: rgb(102, 134, 136);
+    margin-top: 0vmax;
+    margin-left: 0vmax;
+    
+}
+.matter h2{
+    padding-top: 0vmax;
+    font-weight: 100;
+    font-size: 2vmax;
+    line-height: 5vmax;
+}
+.matter h1{
+    font-size: 4vmax;
+    line-height: 3.5vmax;
+    color: white;
+}
+.matter1{
+    width: 40vw;
+    height: 25vh;
+    background-color: rgb(9, 130, 135);
+    margin-top: 0vmax;
+    margin-right: 0vmax;
+}
+.matter1 img{
+    width: 40vw;
+    height: 20vh;
+    margin-left: -3vmax;
+
+}
+.bottom{
+    width: 100%;
+    height: 60vh;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.bottom .box1 img{
+    width: 70vw;
+    height: 16vh;
+    /* background-color: blue; */
+    
+    
+}
+.bottom .box1 .layer{
+    position: absolute;
+    width: 70vw;
+    height: 16vh;
+    background-color: rgba(7, 33, 120, 0.585);
+}
+.bottom .box2 img{
+    width: 70vw;
+    height: 16vh;
+    /* background-color: blue; */
+
+}
+.bottom .box2 .layer2{
+    position: absolute;
+    width: 70vw;
+    height: 16vh;
+    background-color: rgba(87, 9, 171, 0.5);
+} 
+.bottom .box3 img{
+    width: 70vw;
+    height: 16vh;
+    /* background-color: blue; */
+}
+.bottom .box3 .layer3{
+    position: absolute;
+    width: 70vw;
+    height: 16vh;
+    background-color: rgb(236, 74, 5, 0.5);
+}
+
+}
+
+
+
+
